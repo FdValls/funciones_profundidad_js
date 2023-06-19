@@ -8,7 +8,8 @@
     <title>¿Quién es ese Pokémon?</title>
     <link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
     <link rel="icon" href="https://inove.com.ar/wp-content/uploads/2020/03/cropped-5b-3-32x32.png"/>
-    <script src="https://kit.fontawesome.com/44b48ae2f6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="[nombreCarpetaFontAwesome]/css/all.css">
+    <script src="https://kit.fontawesome.com/98b7dd596d.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -26,7 +27,7 @@
       <!-- Trivia section -->
       <section>          
         <article id="trivia">
-          <button id="reload"><i class="fas fa-sync-alt"></i></button>
+          <button id="reload" onclick="restart()"><i class="fas fa-sync-alt"></i></button>
           <div class="tittle">¿Quién es ese Pokémon?</div>
           <div class="block"><img id="imgpokemon" src="./images/poke-shadow.png"></div>
           <br><span id="resultText"></span><br>

@@ -42,3 +42,8 @@ const pokemons = [
         thumbnail: "https://raw.githubusercontent.com/InoveAlumnos/pokemon_assets_js/main/assets/150.png",
     },
 ]
+
+
+function cantPoke() {
+    return pokemons.length
+}
