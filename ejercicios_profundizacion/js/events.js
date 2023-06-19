@@ -40,6 +40,9 @@ const restart = () => {
 
   imgPokemon.src = randomPokemon.thumbnail
 
+  // Usando setAttribute()
+  // imgPokemon.setAttribute("src", randomPokemon.thumbnail)
+
   console.log(section);
   console.log(txtRemove);
   console.log("numeroAleatorio " + numero);
